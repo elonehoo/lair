@@ -22,21 +22,11 @@
     </properties>
 
     <dependencies>
-        <!--Starter for building web, including RESTful, applications using Spring MVC. Uses Tomcat as the default embedded container-->
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-web</artifactId>
-        </dependency>
-        <!--Starter for using JDBC with the HikariCP connection pool-->
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-jdbc</artifactId>
-        </dependency>
         <!--MyBatis SQL mapper framework for Java-->
         <dependency>
-            <groupId>org.mybatis.spring.boot</groupId>
-            <artifactId>mybatis-spring-boot-starter</artifactId>
-            <version>2.2.2</version>
+          <groupId>org.mybatis.spring.boot</groupId>
+          <artifactId>mybatis-spring-boot-starter</artifactId>
+          <version>2.2.2</version>
         </dependency>
         <!--JDBC Type 4 driver for MySQL-->
         <dependency>
@@ -61,11 +51,6 @@
             <groupId>com.baomidou</groupId>
             <artifactId>mybatis-plus-extension</artifactId>
             <version>${mybatis-plus.version}</version>
-        </dependency>
-        <!--Starter for using Redis key-value data store with Spring Data Redis and the Lettuce client-->
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-data-redis</artifactId>
         </dependency>
         <!--The Apache Commons Object Pooling Library.-->
         <dependency>
