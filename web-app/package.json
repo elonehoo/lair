@@ -1,0 +1,12 @@
+{
+  "name": "@web-app/monorepo",
+  "version": "0.0.0",
+  "type": "module",
+  "private": true,
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+  },
+  "author": "Elone Hoo <huchengyea@163.com> (https://github.com/elonehoo)",
+  "license": "MIT"
+}
