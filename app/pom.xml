@@ -23,6 +23,7 @@
         <module>web</module>
         <module>core</module>
         <module>utils</module>
+        <module>tasks</module>
     </modules>
 
     <properties>
