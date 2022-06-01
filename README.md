@@ -34,3 +34,17 @@
 - [jsoup](https://github.com/jhy/jsoup) - jsoup is a Java library for working with real-world HTML. It provides a very convenient API for fetching URLs and extracting and manipulating data, using the best of HTML5 DOM methods and CSS selectors. jsoup implements the WHATWG HTML5 specification, and parses HTML to the same DOM as modern browsers do.
 - [Restful Return](https://github.com/elonehoo/restful-return) - SpringBoot based return value types are supported by browsers.
 - [sa Token](https://github.com/dromara/Sa-Token) - springboot integrate sa-token
+
+## Try it now!
+
+[Create a repo from this template on GitHub](https://github.com/elonehoo/static/generate).
+
+### Clone to local
+
+If you prefer to do it manually with the cleaner git history
+
+```bash
+npx degit elonehoo/static my-static-app
+cd my-static-app/web-app
+pnpm install # If you don't have pnpm installed, run: npm install -g pnpm
+```
