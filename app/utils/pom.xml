@@ -22,7 +22,11 @@
   </properties>
 
   <dependencies>
-
+    <dependency>
+      <groupId>com.item.app.basic</groupId>
+      <artifactId>basic</artifactId>
+      <version>0.0.1</version>
+    </dependency>
   </dependencies>
 
   <build>
