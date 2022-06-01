@@ -22,6 +22,7 @@
         <module>basic</module>
         <module>web</module>
         <module>core</module>
+        <module>utils</module>
     </modules>
 
     <properties>
