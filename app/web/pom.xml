@@ -27,18 +27,7 @@
             <artifactId>basic</artifactId>
             <version>0.0.1</version>
         </dependency>
-        <!--springboot integrate sa-token-->
-        <dependency>
-            <groupId>cn.dev33</groupId>
-            <artifactId>sa-token-spring-boot-starter</artifactId>
-            <version>1.30.0</version>
-        </dependency>
-        <!--sa-token integrate redis-->
-        <dependency>
-            <groupId>cn.dev33</groupId>
-            <artifactId>sa-token-dao-redis</artifactId>
-            <version>1.30.0</version>
-        </dependency>
+
     </dependencies>
 
     <build>
