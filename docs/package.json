@@ -1,0 +1,16 @@
+{
+  "name": "static-docs",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vitepress dev",
+    "build": "vitepress build",
+    "serve": "vitepress serve"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "vitepress": "^1.0.0-alpha.1"
+  }
+}
