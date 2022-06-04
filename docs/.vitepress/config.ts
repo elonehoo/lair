@@ -23,7 +23,8 @@ export default defineConfig({
     },
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/elonehoo/static' }
+      { icon: 'github', link: 'https://github.com/elonehoo/static' },
+      {icon: 'twitter', link: 'https://twitter.com/huchengye'},
     ],
 
     footer: {
@@ -36,8 +37,8 @@ export default defineConfig({
 function nav(){
   return [
     { text: 'Guide', link: '/guide/getting-started', activeMatch: '/guide/' },
-    { text: 'app', link: '/app/getting-started', activeMatch: '/app/' },
-    { text: 'web', link: '/web/getting-started', activeMatch: '/web/' },
+    { text: 'app', link: '/app/', activeMatch: '/app/' },
+    { text: 'web', link: '/web/', activeMatch: '/web/' },
   ]
 }
 
@@ -45,12 +46,24 @@ function sidebar(){
   return {
     '/':[
       {
-        text: 'guide',
+        text: 'Guide',
         items:[
           {text:'Why lair',link: '/guide/why'},
           {text:'Getting Started',link: '/guide/getting-started'},
         ]
-      }
+      },
+      {
+        text:'App',
+        items:[
+          {text:'Introduce',link:'/app/'},
+        ]
+      },
+      {
+        text:'Web',
+        items:[
+          {text:'Introduce',link:'/web/'},
+        ]
+      },
     ]
   }
 
