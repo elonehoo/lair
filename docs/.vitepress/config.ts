@@ -14,6 +14,7 @@ export default defineConfig({
   themeConfig: {
     logo:'/logo.svg',
     nav:nav(),
+    sidebar:sidebar(),
     editLink: {
       repo: 'elonehoo/static',
       branch: 'main',
@@ -38,4 +39,19 @@ function nav(){
     { text: 'app', link: '/app/getting-started', activeMatch: '/app/' },
     { text: 'web', link: '/web/getting-started', activeMatch: '/web/' },
   ]
+}
+
+function sidebar(){
+  return {
+    '/':[
+      {
+        text: 'guide',
+        items:[
+          {text:'Why lair',link: '/guide/why'},
+          {text:'Getting Started',link: '/guide/getting-started'},
+        ]
+      }
+    ]
+  }
+
 }

@@ -1,5 +1,6 @@
 ---
 layout: home
+sidebar: false
 
 title: Lair
 titleTemplate: Vue and SpringBoot static template
