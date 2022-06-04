@@ -28,4 +28,14 @@ pnpm install
 
 ## Step.3: Run the App
 
+First start the SpringBoot project, first use the IDE to start the 「core」 module
 
+```bash
+mvn spring-boot:run
+```
+
+Then start the front-end project
+
+```bash
+pnpm run dev
+```

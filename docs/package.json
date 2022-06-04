@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "vitepress dev",
+    "dev": "vitepress --port 3333 --open",
     "build": "vitepress build",
     "serve": "vitepress serve"
   },
@@ -12,5 +12,10 @@
   "license": "MIT",
   "dependencies": {
     "vitepress": "^1.0.0-alpha.1"
+  },
+  "devDependencies": {
+    "@types/fs-extra": "^9.0.13",
+    "@unocss/reset": "^0.37.4",
+    "unocss": "^0.37.4"
   }
 }

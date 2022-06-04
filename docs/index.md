@@ -1,17 +1,26 @@
 ---
 layout: home
 
-title: static
+title: Lair
 titleTemplate: Vue and SpringBoot static template
 
 hero:
-  name: static
+  name: Lair
   text: Vue and SpringBoot static template
   tagline: Fully modular, fully annotated
+  image:
+    src: /logo.svg
+    alt: static
   actions:
     - theme: brand
       text: Get Started
       link: /guide/getting-started
+    - theme: alt
+      text: Features
+      link: /guide/features
+    - theme: alt
+      text: Why
+      link: /guide/why
     - theme: alt
       text: View on GitHub
       link: https://github.com/elonehoo/static

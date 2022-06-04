@@ -2,12 +2,17 @@ import {defineConfig} from 'vitepress'
 
 export default defineConfig({
   lang: 'en-US',
-  title: 'static',
+  title: 'Lair',
   description: 'Vue and SpringBoot static template',
 
   lastUpdated: true,
 
+  head:[
+    ['link', { rel: 'icon', href: '/logo.svg', type: 'image/svg+xml' }],
+  ],
+
   themeConfig: {
+    logo:'/logo.svg',
     nav:nav(),
     editLink: {
       repo: 'elonehoo/static',
