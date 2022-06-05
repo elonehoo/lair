@@ -23,7 +23,8 @@ jobs:
         uses: actions/setup-node@v3
         with:
           cache: pnpm
-          dest: docs
+          run_install: |
+            - cwd: '-C docs'
 
       - name: Install
         run: pnpm install
