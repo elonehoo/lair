@@ -13,19 +13,16 @@ jobs:
     steps:
       - uses: actions/checkout@v3
 
-      - name: cd docs
-        run: cd docs
-
       - name: Install pnpm
         uses: pnpm/action-setup@v2.2.2
+        with: |
+          - recursive: true
+            cwd: '-C docs'
 
       - name: Install node
         uses: actions/setup-node@v3
         with:
           cache: pnpm
-          run_install: |
-            - recursive: true
-              cwd: '-C docs'
 
       - name: Install
         run: pnpm install
