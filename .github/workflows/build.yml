@@ -17,7 +17,7 @@ jobs:
         uses: pnpm/action-setup@v2.2.2
         with: |
           - recursive: true
-            cwd: '-C docs'
+            cwd: -C docs
 
       - name: Install node
         uses: actions/setup-node@v3
