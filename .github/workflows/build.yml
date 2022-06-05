@@ -20,12 +20,10 @@ jobs:
         uses: actions/setup-node@v3
         with:
           cache: pnpm
-
-      - name: cd docs
-        run: cd docs
+          dest: docs
 
       - name: Install
-        run: pnpm install
+        run: pnpm -C docs install
 
       - name: Run Build
         run: pnpm run build
