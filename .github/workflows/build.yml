@@ -21,11 +21,14 @@ jobs:
         with:
           cache: pnpm
 
+      - name: cd docs
+        run: cd docs
+
       - name: Install
-        run: cd docs && pnpm install
+        run: pnpm install
 
       - name: Run Build
-        run: cd docs & pnpm run build
+        run: pnpm run build
 
       - name: echo cname
         run: echo 'lair.elonehoo.xyz' > docs/.vitepress/dist/CNAME
