@@ -3,6 +3,7 @@ lockfileVersion: 5.3
 specifiers:
   '@types/fs-extra': ^9.0.13
   '@unocss/reset': ^0.37.4
+  pnpm: ^7.1.8
   unocss: ^0.37.4
   vitepress: ^1.0.0-alpha.1
 
@@ -12,6 +13,7 @@ dependencies:
 devDependencies:
   '@types/fs-extra': 9.0.13
   '@unocss/reset': 0.37.4
+  pnpm: 7.1.8
   unocss: 0.37.4
 
 packages:
@@ -1092,6 +1094,12 @@ packages:
   /picomatch/2.3.1:
     resolution: {integrity: sha512-JU3teHTNjmE2VCGFzuY8EXzCDVwEqB2a8fsIvwaStHhAWJEeVd1o1QD80CU6+ZdEXXSLbSsuLwJjkCBWqRQUVA==}
     engines: {node: '>=8.6'}
+    dev: true
+
+  /pnpm/7.1.8:
+    resolution: {integrity: sha512-6E+iGdkAcEtEvmxgLGpHiK51ArFK8mBUFIQ6/x5LeL+YCWbi1r1Fy2UPN1dDWUjy2xauLjgIMp/KQ5s5b85EBA==}
+    engines: {node: '>=14.19'}
+    hasBin: true
     dev: true
 
   /postcss/8.4.14:
