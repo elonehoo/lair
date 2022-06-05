@@ -16,10 +16,7 @@ jobs:
       - name: Install pnpm
         uses: pnpm/action-setup@v2.2.2
         with:
-          dest: docs
-          run_install: |
-            - recursive: true
-              cwd: -C docs
+          version: 7.1.8
 
       - name: Install node
         uses: actions/setup-node@v3
