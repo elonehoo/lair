@@ -50,6 +50,7 @@ function sidebar(){
         items:[
           {text:'Why lair',link: '/guide/why'},
           {text:'Getting Started',link: '/guide/getting-started'},
+          {text:'Features',link: '/guide/features'},
         ]
       },
       {
