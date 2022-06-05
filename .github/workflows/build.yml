@@ -24,10 +24,10 @@ jobs:
           cache: pnpm
 
       - name: Install
-        run: pnpm install
+        run: pnpm -C docs install
 
       - name: Run Build
-        run: pnpm run build
+        run: pnpm -C docs run build
 
       - name: echo cname
         run: echo 'lair.elonehoo.xyz' > docs/.vitepress/dist/CNAME
