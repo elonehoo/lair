@@ -24,7 +24,8 @@ jobs:
         with:
           cache: pnpm
           run_install: |
-            - cwd: '-C docs'
+            - recursive: true
+              cwd: '-C docs'
 
       - name: Install
         run: pnpm install
