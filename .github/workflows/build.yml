@@ -16,12 +16,12 @@ jobs:
       - name: Install pnpm
         uses: pnpm/action-setup@v2.2.2
         with:
-          version: 7.1.8
+          version: latest
 
       - name: Install node
         uses: actions/setup-node@v3
         with:
-          cache: pnpm
+          node-version: latest
 
       - name: Install
         run: pnpm -C docs install
