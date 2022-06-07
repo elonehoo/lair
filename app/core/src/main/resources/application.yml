@@ -1,10 +1,7 @@
 server:
   servlet:
-    context-path: /lair
-
+    context-path: /item
 spring:
-  on-profiles:
-    active: dev
-    include: basic
-  cache:
-    type: redis
+  profiles:
+    active: basic,dev
+
