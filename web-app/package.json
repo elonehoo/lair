@@ -1,12 +1,29 @@
 {
-  "name": "@web-app/monorepo",
+  "name": "@lair/monorepo",
   "version": "0.0.0",
   "type": "module",
   "private": true,
   "description": "",
   "main": "index.js",
-  "scripts": {
-  },
+  "scripts": {},
   "author": "Elone Hoo <huchengyea@163.com> (https://github.com/elonehoo)",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "@elonehoo/eslint-config": "^2.0.0",
+    "@iconify-json/carbon": "^1.1.5",
+    "@unocss/reset": "^0.38.0",
+    "@vitejs/plugin-vue": "^2.3.3",
+    "@vue/compiler-sfc": "^3.2.37",
+    "@vueuse/core": "^8.6.0",
+    "eslint": "^8.17.0",
+    "pinia": "^2.0.14",
+    "pnpm": "^7.1.9",
+    "typescript": "^4.7.3",
+    "unbuild": "^0.7.4",
+    "unocss": "^0.38.0",
+    "vite": "^2.9.10",
+    "vitest": "^0.14.1",
+    "vue": "^3.2.37",
+    "vue-tsc": "^0.37.2"
+  }
 }
