@@ -1,5 +1,6 @@
 package com.item.web.controller;
 
+import com.restful.Result;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -9,8 +10,13 @@ import org.springframework.web.bind.annotation.RestController;
 public class DemoController {
 
   @GetMapping("/hello")
-  public String demo1() {
-    return "demo1";
+  public Result demo1() {
+    return Result.success("hello");
+  }
+
+  @GetMapping("/out")
+  public String demo2(){
+    return "out";
   }
 
 }

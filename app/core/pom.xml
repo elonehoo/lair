@@ -23,6 +23,11 @@
 
   <dependencies>
     <dependency>
+      <groupId>com.item.app.web</groupId>
+      <artifactId>web</artifactId>
+      <version>0.0.1</version>
+    </dependency>
+    <dependency>
       <groupId>com.item.app.basic</groupId>
       <artifactId>basic</artifactId>
       <version>0.0.1</version>
