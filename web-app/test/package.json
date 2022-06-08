@@ -1,6 +1,7 @@
 {
-  "name": "@lair/layout",
+  "name": "@lair/test",
   "version": "0.0.0",
+  "private":"true",
   "type": "module",
   "description": "",
   "main": "index.js",
