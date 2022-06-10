@@ -12,5 +12,8 @@
     "prepublishOnly": "pnpm run build"
   },
   "author": "Elone Hoo <huchengyea@163.com> (https://github.com/elonehoo)",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "@lair/components":"workspace:*"
+  }
 }
