@@ -5,7 +5,9 @@
   "private": true,
   "description": "",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "core-dev":"npm -C core run dev"
+  },
   "author": "Elone Hoo <huchengyea@163.com> (https://github.com/elonehoo)",
   "license": "MIT",
   "devDependencies": {
