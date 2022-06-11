@@ -6,7 +6,7 @@ const props = defineProps<{ githubLink: string }>()
 
 <template>
   <div text="xl gray4" m-5 flex justify-center gap-3>
-    <router-link to="/" i-carbon-bat />
+    <slot></slot>
     <a i-carbon-logo-github :href="props.githubLink" target="_blank" />
     <DarkToggle />
   </div>

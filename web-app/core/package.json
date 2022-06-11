@@ -14,7 +14,8 @@
   "author": "Elone Hoo <huchengyea@163.com> (https://github.com/elonehoo)",
   "license": "MIT",
   "devDependencies": {
-    "@lair/components": "workspace:*"
+    "@lair/components": "workspace:*",
+    "@lair/pages": "workspace:*"
   },
   "dependencies": {
     "vue-router": "4"

@@ -42,11 +42,13 @@ importers:
   core:
     specifiers:
       '@lair/components': workspace:*
+      '@lair/pages': workspace:*
       vue-router: '4'
     dependencies:
       vue-router: 4.0.16_vue@3.2.37
     devDependencies:
       '@lair/components': link:../packages/components
+      '@lair/pages': link:../packages/pages
 
   packages/components:
     specifiers: {}

@@ -1,12 +1,20 @@
 <script setup lang="ts">
-import {Footer,Logos} from '@lair/components';
+import {Footer} from '@lair/components'
+import { useRouter} from 'vue-router'
+
+const router = useRouter()
+
+router.currentRoute.value.name
+
 </script>
 
 <template>
   <main class="px-10 py-20 text-center gray-700 dark:gray-200">
-    <!-- <router-view /> -->
-    <Logos vite="/vite.svg" spring="/spring.svg" />
-    <Footer github-link="https://github.com/elonehoo/static"/>
+    <router-view />
+    <Footer github-link="https://github.com/elonehoo/static"><router-link to="/" i-carbon-bat /></Footer>
+    <div class="mt-5 mx-auto text-center opacity-25 text-sm">
+      [{{router.currentRoute.value.name}} Layout]
+    </div>
   </main>
 </template>
 
