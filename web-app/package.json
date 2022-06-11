@@ -11,6 +11,9 @@
   },
   "author": "Elone Hoo <huchengyea@163.com> (https://github.com/elonehoo)",
   "license": "MIT",
+  "dependencies": {
+    "@vueuse/core": "^8.6.0"
+  },
   "devDependencies": {
     "@elonehoo/eslint-config": "^2.0.0",
     "@iconify-json/carbon": "^1.1.5",

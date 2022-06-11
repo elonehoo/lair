@@ -1,11 +1,12 @@
 <script setup lang="ts">
-import {Footer} from '@lair/components/src';
+import {Footer,Logos} from '@lair/components';
 </script>
 
 <template>
-  <main class="font-sans px-4 py-10 text-center gray-700 dark:gray-200">
+  <main class="px-10 py-20 text-center gray-700 dark:gray-200">
     <!-- <router-view /> -->
-    <Footer />
+    <Logos vite="/vite.svg" spring="/spring.svg" />
+    <Footer github-link="https://github.com/elonehoo/static"/>
   </main>
 </template>
 
