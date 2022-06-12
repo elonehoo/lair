@@ -10,6 +10,7 @@
 <p align="center">
   <img width="600" src="./public/page-view.png" />
 </p>
+
 ## Features
 
 - [Spring Boot](https://github.com/spring-projects/spring-boot) - Core starter, including auto-configuration support, logging and YAML.
