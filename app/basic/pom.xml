@@ -18,64 +18,20 @@
 
     <properties>
         <java.version>17</java.version>
-        <mybatis-plus.version>3.5.2</mybatis-plus.version>
     </properties>
 
     <dependencies>
-        <!--MyBatis SQL mapper framework for Java-->
-        <dependency>
-          <groupId>org.mybatis.spring.boot</groupId>
-          <artifactId>mybatis-spring-boot-starter</artifactId>
-          <version>2.2.2</version>
-        </dependency>
         <!--JDBC Type 4 driver for MySQL-->
         <dependency>
             <groupId>mysql</groupId>
             <artifactId>mysql-connector-java</artifactId>
             <scope>runtime</scope>
         </dependency>
-        <!--Spring Boot with Druid support,help you simplify Druid config in Spring Boot.-->
-        <dependency>
-            <groupId>com.alibaba</groupId>
-            <artifactId>druid-spring-boot-starter</artifactId>
-            <version>1.2.9</version>
-        </dependency>
-        <!--An enhanced toolkit of Mybatis to simplify development.-->
-        <dependency>
-            <groupId>com.baomidou</groupId>
-            <artifactId>mybatis-plus-boot-starter</artifactId>
-            <version>${mybatis-plus.version}</version>
-        </dependency>
-        <!--An enhanced toolkit of Mybatis to simplify development.-->
-        <dependency>
-            <groupId>com.baomidou</groupId>
-            <artifactId>mybatis-plus-extension</artifactId>
-            <version>${mybatis-plus.version}</version>
-        </dependency>
-        <dependency>
-          <groupId>com.baomidou</groupId>
-          <artifactId>mybatis-plus-generator</artifactId>
-          <version>${mybatis-plus.version}</version>
-        </dependency>
-
-      <!--The Apache Commons Object Pooling Library.-->
+        <!--The Apache Commons Object Pooling Library.-->
         <dependency>
             <groupId>org.apache.commons</groupId>
             <artifactId>commons-pool2</artifactId>
             <version>2.11.1</version>
-        </dependency>
-        <!--A Free Java-PDF library-->
-        <dependency>
-            <groupId>com.itextpdf</groupId>
-            <artifactId>itext7-core</artifactId>
-            <version>7.2.2</version>
-            <type>pom</type>
-        </dependency>
-        <!--A set of tools that keep Java sweet.-->
-        <dependency>
-            <groupId>cn.hutool</groupId>
-            <artifactId>hutool-all</artifactId>
-            <version>5.8.2</version>
         </dependency>
         <!--Core barcode encoding/decoding library-->
         <dependency>
@@ -95,33 +51,6 @@
             <artifactId>joda-time</artifactId>
             <version>2.10.14</version>
         </dependency>
-        <!--office utils base poi-->
-        <dependency>
-            <groupId>cn.afterturn</groupId>
-            <artifactId>easypoi-spring-boot-starter</artifactId>
-            <version>4.3.0</version>
-        </dependency>
-        <dependency>
-            <groupId>cn.afterturn</groupId>
-            <artifactId>easypoi-base</artifactId>
-            <version>4.3.0</version>
-        </dependency>
-        <dependency>
-            <groupId>cn.afterturn</groupId>
-            <artifactId>easypoi-web</artifactId>
-            <version>4.3.0</version>
-        </dependency>
-        <dependency>
-            <groupId>cn.afterturn</groupId>
-            <artifactId>easypoi-annotation</artifactId>
-            <version>4.3.0</version>
-        </dependency>
-        <!--Support Chinese character (both Simplified and Tranditional) to most popular Pinyin systems, including Hanyu Pinyin, Tongyong Pinyin, Wade-Giles, MPS2, Yale and Gwoyeu Romatzyh. Support multiple pronounciations and customized output.-->
-        <dependency>
-            <groupId>com.belerweb</groupId>
-            <artifactId>pinyin4j</artifactId>
-            <version>2.5.0</version>
-        </dependency>
         <!--jsoup is a Java library for working with real-world HTML. It provides a very convenient API for fetching URLs and extracting and manipulating data, using the best of HTML5 DOM methods and CSS selectors. jsoup implements the WHATWG HTML5 specification, and parses HTML to the same DOM as modern browsers do.-->
         <dependency>
             <groupId>org.jsoup</groupId>
@@ -133,18 +62,6 @@
             <groupId>io.github.xiaoxunyao</groupId>
             <artifactId>restful-return</artifactId>
             <version>0.0.3</version>
-        </dependency>
-        <!--springboot integrate sa-token-->
-        <dependency>
-          <groupId>cn.dev33</groupId>
-          <artifactId>sa-token-spring-boot-starter</artifactId>
-          <version>1.30.0</version>
-        </dependency>
-        <!--sa-token integrate redis-->
-        <dependency>
-          <groupId>cn.dev33</groupId>
-          <artifactId>sa-token-dao-redis</artifactId>
-          <version>1.30.0</version>
         </dependency>
         <!--FreeMarker is a "template engine"; a generic tool to generate text output based on templates.-->
         <dependency>
