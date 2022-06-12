@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import {Logos,InputEntry} from '@lair/components'
+import {Logos,InputEntry,PageView} from '@lair/components'
 import { useRouter } from 'vue-router'
 
 const name = $ref('')
@@ -15,6 +15,7 @@ function go(){
 <template>
   <div>
     <Logos vite="/vite.svg" spring="/spring.svg" />
+    <PageView />
     <InputEntry v-model:name="name" @go="go"/>
   </div>
 </template>

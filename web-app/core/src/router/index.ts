@@ -1,5 +1,5 @@
 import { createRouter, createWebHistory } from 'vue-router'
-import {Error} from '@lair/pages'
+import Error from '../page/error/index.vue'
 import Home from '../page/hi/index.vue'
 import Default from '../page/index.vue'
 

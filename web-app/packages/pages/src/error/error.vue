@@ -1,5 +1,11 @@
 <script setup lang="ts">
+const emit = defineEmits([
+  'back'
+])
 
+function back(){
+  emit('back')
+}
 </script>
 
 <template>
@@ -9,7 +15,7 @@
     </div>
     <div>Not found</div>
     <div>
-      <button btn text-sm m="3 t8">
+      <button btn text-sm m="3 t8" @click="back">
         Back
       </button>
     </div>
