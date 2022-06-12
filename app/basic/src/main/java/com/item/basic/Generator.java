@@ -38,7 +38,7 @@ public class Generator {
   /**
    * address to connect to SQL
    */
-  private static final String SQL_URL = "jdbc:mysql://localhost:3306/static";
+  private static final String SQL_URL = "jdbc:mysql://localhost:3306/lair";
 
   /**
    * connect to SQL account
@@ -53,13 +53,13 @@ public class Generator {
   /**
    * author using the tool
    */
-  private static final String AUTHOR = "Elone Hoo <huchengyea@163.com>";
+  private static final String AUTHOR = "Elone Hoo <huchengyea@163.com> (https://github.com/elonehoo)";
 
   /**
    * the only entry to run the project
    */
   public static void main(String[] args) {
-    generator("user","user1","user2");
+    generator("hi");
   }
 
   /**

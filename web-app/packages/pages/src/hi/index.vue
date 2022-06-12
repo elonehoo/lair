@@ -1,11 +1,21 @@
 <script setup lang="ts">
 import {Counter} from '@lair/components'
+
 const props = defineProps<{ name: string }>()
+
 const emit = defineEmits([
   'back'
 ])
+
 function back(){
   emit('back')
+}
+
+const user = {
+  otherNames:[
+    'John',
+    'Jane'
+  ]
 }
 </script>
 
@@ -17,9 +27,18 @@ function back(){
     </h3>
     <div text-xl>{{ props.name }}!</div>
 
-    <p class="text-sm opacity-50">
-      <em>Dynamic route!</em>
-    </p>
+    <template v-if="user.otherNames.length">
+      <p text-sm my-4>
+        <span op-50>Also as known as:</span>
+        <ul>
+          <li v-for="otherName in user.otherNames" :key="otherName">
+            <router-link :to="`/hi/${otherName}`" replace>
+              {{ otherName }}
+            </router-link>
+          </li>
+        </ul>
+      </p>
+    </template>
 
     <Counter/>
 
