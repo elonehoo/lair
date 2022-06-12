@@ -1,0 +1,14 @@
+{
+  "name": "@lair/composables",
+  "version": "0.0.0",
+  "type": "module",
+  "description": "",
+  "main": "./src/index.ts",
+  "scripts": {
+    "build": "unbuild",
+    "stub": "unbuild --stub",
+    "prepublishOnly": "pnpm run build"
+  },
+  "author": "Elone Hoo <huchengyea@163.com> (https://github.com/elonehoo)",
+  "license": "MIT"
+}
