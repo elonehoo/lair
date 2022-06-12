@@ -4,8 +4,6 @@ import { useRouter} from 'vue-router'
 
 const router = useRouter()
 
-router.currentRoute.value.name
-
 </script>
 
 <template>

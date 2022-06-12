@@ -6,6 +6,7 @@ importers:
     specifiers:
       '@elonehoo/eslint-config': ^2.0.0
       '@iconify-json/carbon': ^1.1.5
+      '@iconify-json/logos': ^1.1.5
       '@unocss/reset': ^0.38.2
       '@vitejs/plugin-vue': ^2.3.3
       '@vue/compiler-sfc': ^3.2.37
@@ -25,6 +26,7 @@ importers:
     devDependencies:
       '@elonehoo/eslint-config': 2.0.0_eslint@8.17.0+typescript@4.7.3
       '@iconify-json/carbon': 1.1.5
+      '@iconify-json/logos': 1.1.5
       '@unocss/reset': 0.38.2
       '@vitejs/plugin-vue': 2.3.3_vite@2.9.12+vue@3.2.37
       '@vue/compiler-sfc': 3.2.37
@@ -394,6 +396,12 @@ packages:
 
   /@iconify-json/carbon/1.1.5:
     resolution: {integrity: sha512-ENl8CIEo+7JcRzpJ/58i+dDc3fkNOO7gyNGg4S4JN5cAiVpvltYTVO86Oei7rpl8bKypJ0vk3B0BbzzTw7DclA==}
+    dependencies:
+      '@iconify/types': 1.1.0
+    dev: true
+
+  /@iconify-json/logos/1.1.5:
+    resolution: {integrity: sha512-PVBTp7fZ7zNBDdCCqN9IqJt78jO4f8agtiNVwxWfflmEGi3+Fu95Jre0CYAPDalyy862r46DXg8AiCoNENQ3SQ==}
     dependencies:
       '@iconify/types': 1.1.0
     dev: true
