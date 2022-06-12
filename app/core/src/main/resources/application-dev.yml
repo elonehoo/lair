@@ -5,44 +5,34 @@ spring:
     activate:
       on-profile: dev
   datasource:
-    type: com.alibaba.druid.pool.DruidDataSource
-    druid:
-      name: app-basic
-      url: jdbc:mysql://localhost:3306/static?useUnicode=true&characterEncoding=utf-8&serverTimezone=Asia/Shanghai
-      username: root
-      password: 123456
-      driver-class-name: com.mysql.cj.jdbc.Driver
-      initial-size: 10
-      max-active: 100
-      min-idle: 10
-      max-wait: 60000
-      pool-prepared-statements: true
-      max-pool-prepared-statement-per-connection-size: 20
-      time-between-eviction-runs-millis: 60000
-      min-evictable-idle-time-millis: 300000
-      test-while-idle: true
-      test-on-borrow: false
-      test-on-return: false
-      stat-view-servlet:
-        enabled: true
-        url-pattern: /druid/*
-        login-username: admin
-        login-password: 123456
-      filter:
-        config:
-          enabled: true
-        stat:
-          log-slow-sql: true
-          slow-sql-millis: 1000
-          merge-sql: false
-        wall:
-          config:
-            multi-statement-allow: true
+    url: jdbc:mysql://localhost:3306/lair?useUnicode=true&characterEncoding=utf-8&serverTimezone=Asia/Shanghai
+    username: root
+    password: 123456
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    hikari:
+      auto-commit: true
+      #空闲连接超时时长
+      idle-timeout: 60000
+      #连接超时时长
+      connection-timeout: 60000
+      #最大生命周期，0不过期
+      max-lifetime: 0
+      #最小空闲连接数
+      minimum-idle: 10
+      #最大连接数量
+      maximum-pool-size: 10
   servlet:
     multipart:
       enabled: true
       max-file-size: 50MB
       max-request-size: 100MB
+  jpa:
+    database: mysql
+    hibernate:
+      ddl-auto: update
+    open-in-view: false
+  freemarker:
+    check-template-location: false
   redis:
     database: 0
     host: 127.0.0.1
@@ -51,23 +41,7 @@ spring:
     timeout: 6000ms
     lettuce:
       pool:
-        max-active: 1000  # 连接池最大连接数（使用负值表示没有限制）
-        max-wait: 10000ms      # 连接池最大阻塞等待时间（使用负值表示没有限制）
-        max-idle: 10      # 连接池中的最大空闲连接
-        min-idle: 5       # 连接池中的最小空闲连接
-mybatis-plus:
-  configuration:
-    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl #打印SQL语句
-
-# Sa-Token配置
-sa-token:
-  # token有效期，单位s 默认30天, -1代表永不过期
-  timeout: 2592000
-  # token临时有效期 (指定时间内无操作就视为token过期) 单位: 秒
-  activity-timeout: -1
-  # 是否允许同一账号并发登录 (为true时允许一起登录, 为false时新登录挤掉旧登录)
-  is-concurrent: true
-  # 在多人登录同一账号时，是否共用一个token (为true时所有登录共用一个token, 为false时每次登录新建一个token)
-  is-share: false
-  # 是否输出操作日志
-  is-log: true
+        max-active: 1000  # The maximum number of connections in the connection pool (use a negative value to indicate no limit)
+        max-wait: 10000ms      # Connection pool maximum blocking wait time (use a negative value to indicate no limit)
+        max-idle: 10      # Maximum idle connections in the connection pool
+        min-idle: 5       # Minimum idle connection in connection pool

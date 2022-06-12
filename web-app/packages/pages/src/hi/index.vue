@@ -1,22 +1,20 @@
 <script setup lang="ts">
 import {Counter} from '@lair/components'
+import {all} from '@lair/api'
 
 const props = defineProps<{ name: string }>()
 
-const emit = defineEmits([
-  'back'
-])
+const emit = defineEmits([ 'back' ])
 
 function back(){
   emit('back')
 }
 
-const user = {
-  otherNames:[
-    'John',
-    'Jane'
-  ]
-}
+let users:any = $ref([])
+
+all().then(res=>{
+  users = res.data
+})
 </script>
 
 <template>
@@ -27,13 +25,13 @@ const user = {
     </h3>
     <div text-xl>{{ props.name }}!</div>
 
-    <template v-if="user.otherNames.length">
+    <template v-if="users.length">
       <p text-sm my-4>
         <span op-50>Also as known as:</span>
         <ul>
-          <li v-for="otherName in user.otherNames" :key="otherName">
-            <router-link :to="`/hi/${otherName}`" replace>
-              {{ otherName }}
+          <li v-for="user in users" :key="user.id">
+            <router-link :to="`/hi/${user.name}`" replace>
+              {{ user.name }}
             </router-link>
           </li>
         </ul>

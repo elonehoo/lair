@@ -1,4 +1,4 @@
-package com.item.core;
+package com.item;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -7,7 +7,7 @@ import org.springframework.context.annotation.EnableAspectJAutoProxy;
 
 @EnableCaching
 @EnableAspectJAutoProxy(proxyTargetClass = true)
-@SpringBootApplication(scanBasePackages = {"com.item.*"})
+@SpringBootApplication
 public class CoreApplication {
 
 	public static void main(String[] args) {
