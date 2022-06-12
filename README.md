@@ -7,9 +7,9 @@
 > This is a project that can quickly develop Vue and SpringBoot. SpringBoot is stored in the app directory, Vue is stored in the web-app directory, and the project has a document stored in the docs directory. Help users to carry out rapid development operations.
 
 ## Page View
-
-<img width="600" src="./public/page-view.png" />
-
+<p align="center">
+  <img width="600" src="./public/page-view.png" />
+</p>
 ## Features
 
 - [Spring Boot](https://github.com/spring-projects/spring-boot) - Core starter, including auto-configuration support, logging and YAML.
