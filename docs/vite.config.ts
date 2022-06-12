@@ -4,6 +4,6 @@ import { presetAttributify, presetIcons, presetUno } from 'unocss'
 
 export default defineConfig({
   plugins: [
-    Unocss
+    Unocss()
   ]
 })
