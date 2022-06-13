@@ -4,6 +4,12 @@ import lombok.*;
 
 import java.io.Serializable;
 
+/**
+ * <p>an initial insert template</p>
+ * <p>Entity classes are constructed using annotations in lombok.</p>
+ * @author Elone Hoo <huchengyea@163.com>
+ * @since 2022-06-13
+ */
 @Getter
 @Setter
 @ToString
@@ -12,10 +18,4 @@ import java.io.Serializable;
 public class InstallHi implements Serializable {
   private String name;
 
-  @Override
-  public String toString() {
-    return "InstallHi{" +
-      "name='" + name + '\'' +
-      '}';
-  }
 }

@@ -9,6 +9,15 @@ import org.springframework.format.annotation.DateTimeFormat;
 import javax.persistence.*;
 import java.util.Date;
 
+/**
+ * <p>This is what an initial data table looks like. can show how the template works.</p>
+ * <p>Entity classes are constructed using annotations in lombok and JPA.</p>
+ * <p>Use the snowflake primary key algorithm to generate a custom primary key</p>
+ *
+ * @author Elone Hoo <huchengyea@163.com>
+ * @since 2022-06-13
+ */
+
 @Getter
 @Setter
 @Entity
