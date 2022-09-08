@@ -15,9 +15,9 @@
     "vitepress": "^1.0.0-alpha.1"
   },
   "devDependencies": {
-    "@types/fs-extra": "^9.0.13",
-    "@unocss/reset": "^0.37.4",
-    "pnpm": "^7.1.8",
-    "unocss": "^0.37.4"
+    "@types/fs-extra": "9.0.13",
+    "@unocss/reset": "0.37.4",
+    "pnpm": "7.11.0",
+    "unocss": "0.37.4"
   }
 }
