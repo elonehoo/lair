@@ -2,7 +2,7 @@
   "name": "static-docs",
   "version": "0.0.1",
   "description": "",
-  "packageManager": "pnpm@7.1.8",
+  "packageManager": "pnpm@7.11.0",
   "main": "index.js",
   "scripts": {
     "dev": "vitepress --port 3333 --open",
