@@ -12,7 +12,7 @@
   "author": "Elone Hoo <huchengyea@163.com> (https://github.com/elonehoo)",
   "license": "MIT",
   "dependencies": {
-    "@vueuse/core": "9.1.1"
+    "@vueuse/core": "9.2.0"
   },
   "devDependencies": {
     "@elonehoo/eslint-config": "2.0.0",
@@ -21,7 +21,7 @@
     "@unocss/reset": "0.38.2",
     "@vitejs/plugin-vue": "3.0.3",
     "@vue/compiler-sfc": "3.2.39",
-    "@vueuse/core": "9.1.1",
+    "@vueuse/core": "9.2.0",
     "eslint": "8.23.0",
     "pinia": "2.0.22",
     "pnpm": "7.11.0",
