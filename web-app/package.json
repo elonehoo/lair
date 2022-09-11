@@ -19,7 +19,7 @@
     "@iconify-json/carbon": "1.1.7",
     "@iconify-json/twemoji": "1.1.5",
     "@unocss/reset": "0.38.2",
-    "@vitejs/plugin-vue": "3.0.3",
+    "@vitejs/plugin-vue": "3.1.0",
     "@vue/compiler-sfc": "3.2.39",
     "@vueuse/core": "9.2.0",
     "eslint": "8.23.0",
