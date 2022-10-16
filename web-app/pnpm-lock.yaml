@@ -13,7 +13,7 @@ importers:
       '@vueuse/core': 9.2.0
       eslint: 8.23.0
       pinia: 2.0.22
-      pnpm: 7.11.0
+      pnpm: 7.13.5
       typescript: 4.8.3
       unbuild: 0.8.10
       unocss: 0.45.18
@@ -32,7 +32,7 @@ importers:
       '@vue/compiler-sfc': 3.2.39
       eslint: 8.23.0
       pinia: 2.0.22_typescript@4.8.3+vue@3.2.39
-      pnpm: 7.11.0
+      pnpm: 7.13.5
       typescript: 4.8.3
       unbuild: 0.8.10
       unocss: 0.45.18_vite@3.1.0
@@ -3590,8 +3590,8 @@ packages:
     engines: {node: '>=4'}
     dev: true
 
-  /pnpm/7.11.0:
-    resolution: {integrity: sha512-cxh4TfCE8L4ZbLBN72kTGKTYP7X08nrIzoQ2rQCKihAcIHAdNIgsk4bEJyE1xHjE+bNJt9skwr7aJv3LpvUawQ==}
+  /pnpm/7.13.5:
+    resolution: {integrity: sha512-7+xyYPunBiAAJclpmUU2CTqe7uHipDjguUF2qmd9+r8hfZEVj0TnMTfblPnRF9aiVsmE4X3zRPlY3A5zk7r73w==}
     engines: {node: '>=14.6'}
     hasBin: true
     dev: true

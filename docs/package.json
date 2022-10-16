@@ -2,7 +2,7 @@
   "name": "static-docs",
   "version": "0.0.1",
   "description": "",
-  "packageManager": "pnpm@7.11.0",
+  "packageManager": "pnpm@7.13.5",
   "main": "index.js",
   "scripts": {
     "dev": "vitepress --port 3333 --open",
@@ -17,7 +17,7 @@
   "devDependencies": {
     "@types/fs-extra": "9.0.13",
     "@unocss/reset": "0.45.18",
-    "pnpm": "7.11.0",
+    "pnpm": "7.13.5",
     "unocss": "0.45.18"
   }
 }
