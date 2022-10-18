@@ -18,6 +18,6 @@
     "@types/fs-extra": "9.0.13",
     "@unocss/reset": "0.45.18",
     "pnpm": "7.11.0",
-    "unocss": "0.45.18"
+    "unocss": "0.45.30"
   }
 }
