@@ -13,6 +13,6 @@
   "license": "MIT",
   "dependencies": {
     "@elonehoo/http": "^0.0.9",
-    "axios": "^0.27.2"
+    "axios": "^1.1.3"
   }
 }
