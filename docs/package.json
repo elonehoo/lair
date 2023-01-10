@@ -2,7 +2,7 @@
   "name": "static-docs",
   "version": "0.0.1",
   "description": "",
-  "packageManager": "pnpm@7.14.1",
+  "packageManager": "pnpm@7.21.0",
   "main": "index.js",
   "scripts": {
     "dev": "vitepress --port 3333 --open",
@@ -12,12 +12,12 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "vitepress": "^1.0.0-alpha.26"
+    "vitepress": "^1.0.0-alpha.33"
   },
   "devDependencies": {
     "@types/fs-extra": "9.0.13",
-    "@unocss/reset": "0.46.1",
-    "pnpm": "7.14.1",
-    "unocss": "0.46.1"
+    "@unocss/reset": "0.48.0",
+    "pnpm": "7.21.0",
+    "unocss": "0.48.0"
   }
 }
