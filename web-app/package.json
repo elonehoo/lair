@@ -12,25 +12,25 @@
   "author": "Elone Hoo <huchengyea@163.com> (https://github.com/elonehoo)",
   "license": "MIT",
   "dependencies": {
-    "@vueuse/core": "9.9.0"
+    "@vueuse/core": "9.13.0"
   },
   "devDependencies": {
     "@elonehoo/eslint-config": "2.0.0",
-    "@iconify-json/carbon": "1.1.11",
-    "@iconify-json/twemoji": "1.1.7",
-    "@unocss/reset": "0.48.0",
+    "@iconify-json/carbon": "1.1.16",
+    "@iconify-json/twemoji": "1.1.11",
+    "@unocss/reset": "0.50.6",
     "@vitejs/plugin-vue": "3.2.0",
-    "@vue/compiler-sfc": "3.2.45",
-    "@vueuse/core": "9.9.0",
-    "eslint": "8.30.0",
-    "pinia": "2.0.28",
-    "pnpm": "7.21.0",
-    "typescript": "4.9.4",
+    "@vue/compiler-sfc": "3.2.47",
+    "@vueuse/core": "9.13.0",
+    "eslint": "8.37.0",
+    "pinia": "2.0.33",
+    "pnpm": "7.30.5",
+    "typescript": "4.9.5",
     "unbuild": "0.9.4",
-    "unocss": "0.48.0",
+    "unocss": "0.50.6",
     "vite": "3.2.5",
-    "vitest": "0.26.2",
-    "vue": "3.2.45",
+    "vitest": "0.29.8",
+    "vue": "3.2.47",
     "vue-tsc": "0.40.13"
   }
 }
